@@ -23,13 +23,17 @@ That's it!
 
 ![](http://f.cl.ly/items/1s473T0m0r292p063j1F/create-new-webmention-field.png)
 
-After creating the new field ("Mentioned URLs" in the example above), add the field to the Field Layout for one or more of your site's Entry Types.
+First, create a new field and select "Webmention (targets)" as the Field Type. In the example screenshot above, we're using "Mentioned URLs" as the field's name.
+
+After creating the new field, add it to the Field Layout for one or more of your site's Entry Types.
 
 ### Create a new entry
 
 ![](http://f.cl.ly/items/1E1q3s250b1X2Y3w2a1b/add-mentioned-urls-to-entry.png)
 
-In this new field ("Mentioned URLs" above), add the URLs–one per line—mentioned in the entry's body field (or fields). When you save the entry, the plugin will detect webmention support for each URL and send a notification as necessary.
+In your newly-created field ("Mentioned URLs" above), add the URLs–one per line—mentioned in the entry's body field (or fields). When you save the entry, the plugin will detect webmention support for each URL and send a notification as necessary.
+
+In the example screenshot above, the URL `http://adactio.com/journal/6495/` is referenced in the body and added to the list of mentioned URLs below. When this entry is saved, the plugin will ping that URL, looking for a webmention endpoint. If one is found, the plugin will send a webmention to that endpoint, notifying Jeremy that someone has referenced his work.
 
 
 ## Acknowledgements
