@@ -12,24 +12,24 @@ This plugin provides a client for sending notifications to others that your entr
 To install the Webmention Client plugin, do the following:
 
 1. Move the `webmentionclient` folder to your `craft/plugins` folder.
-2. In the Craft control panel, go to Settings > Plugins and install and enable the Webmention Client plugin.
+2. In the Craft control panel, go to Settings > Plugins and install the Webmention Client plugin.
 
 That's it!
 
 
 ## Usage
 
-### Create a new Webmention (targets) Field
+### Create a new "Webmention (targets)" Field
 
 ![](http://f.cl.ly/items/0A2w3O0e2x1a2L2c0b3z/Image%202014-06-10%20at%203.44.44%20PM.png)
 
-After creating the new field ("Mentioned URLs" in the example above, add the field to the Field Layout for one or more of your site's Entry Types.
+After creating the new field ("Mentioned URLs" in the example above), add the field to the Field Layout for one or more of your site's Entry Types.
 
 ### Create a new entry
 
 ![](http://f.cl.ly/items/0J0n3r323j3I362A0X2Z/Image%202014-06-10%20at%203.51.46%20PM.png)
 
-In this new field ("Mentioned URLs" above), add the URLs to websites mentioned in the entry's body field (or fields). When you save the entry, the plugin will detect webmention support for each URL and send a notification as necessary.
+In this new field ("Mentioned URLs" above), add the URLs–one per line—mentioned in the entry's body field (or fields). When you save the entry, the plugin will detect webmention support for each URL and send a notification as necessary.
 
 
 ## Acknowledgements
