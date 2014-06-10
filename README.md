@@ -21,13 +21,13 @@ That's it!
 
 ### Create a new "Webmention (targets)" Field
 
-![](http://f.cl.ly/items/0A2w3O0e2x1a2L2c0b3z/Image%202014-06-10%20at%203.44.44%20PM.png)
+![](http://f.cl.ly/items/1s473T0m0r292p063j1F/create-new-webmention-field.png)
 
 After creating the new field ("Mentioned URLs" in the example above), add the field to the Field Layout for one or more of your site's Entry Types.
 
 ### Create a new entry
 
-![](http://f.cl.ly/items/0J0n3r323j3I362A0X2Z/Image%202014-06-10%20at%203.51.46%20PM.png)
+![](http://f.cl.ly/items/1E1q3s250b1X2Y3w2a1b/add-mentioned-urls-to-entry.png)
 
 In this new field ("Mentioned URLs" above), add the URLs–one per line—mentioned in the entry's body field (or fields). When you save the entry, the plugin will detect webmention support for each URL and send a notification as necessary.
 
