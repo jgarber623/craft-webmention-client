@@ -36,7 +36,7 @@ In your newly-created field ("Mentioned URLs" above), add the URLs–one per lin
 In the example screenshot above, the URL `http://adactio.com/journal/6495/` is referenced in the body and added to the list of mentioned URLs below. When this entry is saved, the plugin will ping that URL, looking for a webmention endpoint. If one is found, the plugin will send a webmention to that endpoint, notifying Jeremy that someone has referenced his work.
 
 
-## Acknowledgements
+## Acknowledgments
 
 The core functionality of this plugin is based heavily on [Aaron Parecki](https://github.com/aaronpk)'s [mention-client-php](https://github.com/indieweb/mention-client-php).
 
