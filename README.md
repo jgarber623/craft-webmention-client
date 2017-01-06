@@ -1,5 +1,7 @@
 # Craft Webmention Client Plugin
 
+**This project is no longer maintained.** For a newer (and better!) Craft webmention plugin, check out [Matthias Ott's Webmention Plugin for Craft CMS](https://github.com/matthiasott/webmention).
+
 This plugin for the [Craft CMS](http://buildwithcraft.com/) allows you to send [webmentions](http://indiewebcamp.com/webmention) to other websites. From the IndieWebCamp wiki:
 
 > Webmention is a modern update to Pingback, using only HTTP and x-www-urlencoded content rather than XMLRPC requests.
